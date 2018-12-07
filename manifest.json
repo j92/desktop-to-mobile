@@ -1,0 +1,18 @@
+{
+  "name": "Desktop to mobile",
+  "short_name": "desktop-to-mobile",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Easily share a link from your desktop to your mobile with a qr code.",
+  "homepage_url": "http://github.com/j92/desktop-to-mobile",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["declarativeContent", "activeTab"]
+}
